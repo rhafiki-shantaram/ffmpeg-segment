@@ -18,6 +18,7 @@ app.post('/segment', async (req, res) => {
     } catch (error) {
         console.error('Error processing audio segment:', error);
         res.status(500).send('Error processing audio segment');
+        //why nothing to push?
     }
 });
 
